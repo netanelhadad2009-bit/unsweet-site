@@ -1,136 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Unsweet — Break Free From Sugar</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-          tailwind.config = {
-                  theme: {
-                            extend: {
-                                        colors: {
-                                                      brand: '#22c55e',
-                                                      'brand-dark': '#16a34a',
-                                                      'brand-light': '#4ade80',
-                                        }
-                            }
-                  }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unsweet — Break Free From Sugar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#22c55e',
+            'brand-dark': '#16a34a',
+            'brand-light': '#4ade80',
           }
-            </script>
-      <style>
-            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-            body { font-family: 'Inter', sans-serif; }
-            .gradient-text {
-                    background: linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #22c55e 100%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text;
-            }
-            .glow { box-shadow: 0 0 40px rgba(34, 197, 94, 0.15); }
-            .hero-glow { background: radial-gradient(ellipse at center, rgba(34, 197, 94, 0.08) 0%, transparent 70%); }
-          </style>
-  </head>
-  <body class="bg-black text-white min-h-screen antialiased">
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-text {
+      background: linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #22c55e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .glow { box-shadow: 0 0 40px rgba(34, 197, 94, 0.15); }
+    .hero-glow { background: radial-gradient(ellipse at center, rgba(34, 197, 94, 0.08) 0%, transparent 70%); }
+  </style>
+</head>
+<body class="bg-black text-white min-h-screen antialiased">
 
-      <!-- Navigation -->
-      <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/5">
-            <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-                    <a href="/" class="text-2xl font-bold tracking-tight">
-                              <span class="text-white">un</span>span><span class="gradient-text">sweet</span>span>
-                    </a>a>
-                    <div class="flex items-center gap-6">
-                              <a href="privacy.html" class="text-sm text-gray-400 hover:text-white transition">Privacy</a>a>
-                              <a href="terms.html" class="text-sm text-gray-400 hover:text-white transition">Terms</a>a>
-                    </div>div>
-            </div>div>
-      </nav>nav>
+  <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/5">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="text-2xl font-bold tracking-tight">
+        <span class="text-white">un</span><span class="gradient-text">sweet</span>
+      </a>
+      <div class="flex items-center gap-6">
+        <a href="privacy.html" class="text-sm text-gray-400 hover:text-white transition">Privacy</a>
+        <a href="terms.html" class="text-sm text-gray-400 hover:text-white transition">Terms</a>
+      </div>
+    </div>
+  </nav>
 
-      <!-- Hero Section -->
-      <section class="relative min-h-screen flex items-center justify-center hero-glow">
-            <div class="max-w-4xl mx-auto px-6 text-center pt-20">
-                    <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-8">
-                              <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>span>
-                              <span class="text-sm text-gray-300">Now available on iOS</span>span>
-                    </div>div>
-                    <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-[0.9] mb-6">
-                              Break Free<br>
-                              <span class="gradient-text">From Sugar</span>span>
-                    </h1>h1>
-                    <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-                              Track your sugar intake, build healthier habits, and take control of your wellness journey — one day at a time.
-                    </p>p>
-                    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                              <a href="https://apps.apple.com/us/app/unsweet-quit-sugar/id6756910147" class="group bg-green-500 hover:bg-green-400 text-black font-semibold px-8 py-4 rounded-2xl transition-all duration-300 glow hover:scale-105">
-                                          Download the App
-                                          <span class="inline-block ml-1 group-hover:translate-x-1 transition-transform">&rarr;</span>span>
-                              </a>a>
-                              <a href="#features" class="text-gray-400 hover:text-white font-medium px-8 py-4 rounded-2xl border border-white/10 hover:border-white/20 transition-all duration-300">
-                                          Learn More
-                              </a>a>
-                    </div>div>
-            </div>div>
-      </section>section>
+  <section class="relative min-h-screen flex items-center justify-center hero-glow">
+    <div class="max-w-4xl mx-auto px-6 text-center pt-20">
+      <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-8">
+        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+        <span class="text-sm text-gray-300">Now available on iOS</span>
+      </div>
+      <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-[0.9] mb-6">
+        Break Free<br>
+        <span class="gradient-text">From Sugar</span>
+      </h1>
+      <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+        Track your sugar intake, build healthier habits, and take control of your wellness journey — one day at a time.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://apps.apple.com/us/app/unsweet-quit-sugar/id6756910147" class="group bg-green-500 hover:bg-green-400 text-black font-semibold px-8 py-4 rounded-2xl transition-all duration-300 glow hover:scale-105">
+          Download the App
+          <span class="inline-block ml-1 group-hover:translate-x-1 transition-transform">→</span>
+        </a>
+        <a href="#features" class="text-gray-400 hover:text-white font-medium px-8 py-4 rounded-2xl border border-white/10 hover:border-white/20 transition-all duration-300">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </section>
 
-      <!-- Features Section -->
-      <section id="features" class="py-32 relative">
-            <div class="max-w-6xl mx-auto px-6">
-                    <div class="text-center mb-20">
-                              <h2 class="text-3xl md:text-5xl font-bold mb-4">Why <span class="gradient-text">Unsweet</span>span>?</h2>h2>
-                              <p class="text-gray-400 text-lg max-w-xl mx-auto">Simple tools that make a real difference in how you manage sugar consumption.</p>p>
-                    </div>div>
-                    <div class="grid md:grid-cols-3 gap-8">
-                              <div class="bg-white/[0.03] border border-white/[0.06] rounded-3xl p-8 hover:border-green-500/20 transition-all duration-500">
-                                          <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
-                                                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>path></svg>svg>
-                                          </div>div>
-                                          <h3 class="text-xl font-semibold mb-3">Smart Tracking</h3>h3>
-                                          <p class="text-gray-400 leading-relaxed">Log your daily sugar intake with intelligent suggestions and barcode scanning. Know exactly what you consume.</p>p>
-                              </div>div>
-                              <div class="bg-white/[0.03] border border-white/[0.06] rounded-3xl p-8 hover:border-green-500/20 transition-all duration-500">
-                                          <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
-                                                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>path></svg>svg>
-                                          </div>div>
-                                          <h3 class="text-xl font-semibold mb-3">Progress Insights</h3>h3>
-                                          <p class="text-gray-400 leading-relaxed">Visualize your journey with beautiful charts and streaks. Celebrate milestones and stay motivated.</p>p>
-                              </div>div>
-                              <div class="bg-white/[0.03] border border-white/[0.06] rounded-3xl p-8 hover:border-green-500/20 transition-all duration-500">
-                                          <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
-                                                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>path></svg>svg>
-                                          </div>div>
-                                          <h3 class="text-xl font-semibold mb-3">Healthier You</h3>h3>
-                                          <p class="text-gray-400 leading-relaxed">Personalized goals and gentle reminders help you build lasting habits without feeling deprived.</p>p>
-                              </div>div>
-                    </div>div>
-            </div>div>
-      </section>section>
+  <section id="features" class="py-32 relative">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-20">
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Why <span class="gradient-text">Unsweet</span>?</h2>
+        <p class="text-gray-400 text-lg max-w-xl mx-auto">Simple tools that make a real difference in how you manage sugar consumption.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white/[0.03] border border-white/[0.06] rounded-3xl p-8 hover:border-green-500/20 transition-all duration-500">
+          <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Smart Tracking</h3>
+          <p class="text-gray-400 leading-relaxed">Log your daily sugar intake with intelligent suggestions and barcode scanning. Know exactly what you consume.</p>
+        </div>
+        <div class="bg-white/[0.03] border border-white/[0.06] rounded-3xl p-8 hover:border-green-500/20 transition-all duration-500">
+          <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Progress Insights</h3>
+          <p class="text-gray-400 leading-relaxed">Visualize your journey with beautiful charts and streaks. Celebrate milestones and stay motivated.</p>
+        </div>
+        <div class="bg-white/[0.03] border border-white/[0.06] rounded-3xl p-8 hover:border-green-500/20 transition-all duration-500">
+          <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
+            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Healthier You</h3>
+          <p class="text-gray-400 leading-relaxed">Personalized goals and gentle reminders help you build lasting habits without feeling deprived.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <!-- CTA Section -->
-      <section class="py-32">
-            <div class="max-w-4xl mx-auto px-6 text-center">
-                    <div class="bg-gradient-to-b from-green-500/10 to-transparent border border-green-500/20 rounded-[2rem] p-12 md:p-20">
-                              <h2 class="text-3xl md:text-5xl font-bold mb-6">Ready to start?</h2>h2>
-                              <p class="text-gray-400 text-lg mb-10 max-w-lg mx-auto">Join thousands who have already transformed their relationship with sugar.</p>p>
-                              <a href="https://apps.apple.com/us/app/unsweet-quit-sugar/id6756910147" class="inline-block bg-green-500 hover:bg-green-400 text-black font-semibold px-10 py-4 rounded-2xl transition-all duration-300 glow hover:scale-105">
-                                          Get Unsweet Free &rarr;
-                              </a>a>
-                    </div>div>
-            </div>div>
-      </section>section>
+  <section class="py-32">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <div class="bg-gradient-to-b from-green-500/10 to-transparent border border-green-500/20 rounded-[2rem] p-12 md:p-20">
+        <h2 class="text-3xl md:text-5xl font-bold mb-6">Ready to start?</h2>
+        <p class="text-gray-400 text-lg mb-10 max-w-lg mx-auto">Join thousands who have already transformed their relationship with sugar.</p>
+        <a href="https://apps.apple.com/us/app/unsweet-quit-sugar/id6756910147" class="inline-block bg-green-500 hover:bg-green-400 text-black font-semibold px-10 py-4 rounded-2xl transition-all duration-300 glow hover:scale-105">
+          Get Unsweet Free →
+        </a>
+      </div>
+    </div>
+  </section>
 
-      <!-- Footer -->
-      <footer class="border-t border-white/5 py-12">
-            <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-                    <p class="text-sm text-gray-500">&copy; 2025 Unsweet. All rights reserved.</p>p>
-                    <div class="flex items-center gap-6">
-                              <a href="privacy.html" class="text-sm text-gray-500 hover:text-gray-300 transition">Privacy Policy</a>a>
-                              <a href="terms.html" class="text-sm text-gray-500 hover:text-gray-300 transition">Terms of Service</a>a>
-                    </div>div>
-            </div>div>
-      </footer>footer>
+  <footer class="border-t border-white/5 py-12">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-gray-500">© 2025 Unsweet. All rights reserved.</p>
+      <div class="flex items-center gap-6">
+        <a href="privacy.html" class="text-sm text-gray-500 hover:text-gray-300 transition">Privacy Policy</a>
+        <a href="terms.html" class="text-sm text-gray-500 hover:text-gray-300 transition">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
 
-  </body>body>
-</html>html>
-      </style>
-    </script></title>
-  </head>
+</body>
+</html>
