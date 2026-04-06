@@ -1,74 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Unsweet</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#fff;color:#1a1a1a;padding:2rem;line-height:1.7}
-.container{max-width:720px;margin:0 auto}h1{font-size:2rem;margin-bottom:.5rem}h2{font-size:1.2rem;margin-top:1.5rem;margin-bottom:.5rem}.date{color:#888;font-size:.9rem;margin-bottom:2rem}
-ul{padding-left:1.5rem;margin:.5rem 0}a{color:#16a34a}.back{display:inline-block;margin-top:2rem;color:#16a34a;text-decoration:none;font-weight:500}
-</style>
-</head>
-<body>
-<div class="container">
-<h1>Unsweet — Privacy Policy</h1>
-<p class="date">Last updated: March 18, 2026</p>
-<p><strong>This Privacy Policy applies to the Unsweet mobile application ("Unsweet", "the App").</strong></p>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Privacy Policy — Unsweet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+          body { font-family: 'Inter', sans-serif; }
+          .gradient-text {
+                  background: linear-gradient(135deg, #22c55e 0%, #4ade80 50%, #22c55e 100%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;
+          }
+        </style>
+  </head>
+  <body class="bg-black text-gray-300 min-h-screen antialiased">
 
-<h2>1. Introduction</h2>
-<p>Unsweet ("we", "our", or "the App") is operated by Netanel Hadad. This Privacy Policy explains how we collect, use, and protect your information when you use the Unsweet mobile application.</p>
+      <!-- Navigation -->
+      <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/5">
+            <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+                    <a href="/" class="text-2xl font-bold tracking-tight">
+                              <span class="text-white">un</span>span><span class="gradient-text">sweet</span>span>
+                    </a>a>
+                    <div class="flex items-center gap-6">
+                              <a href="privacy.html" class="text-sm text-white font-medium">Privacy</a>a>
+                              <a href="terms.html" class="text-sm text-gray-400 hover:text-white transition">Terms</a>a>
+                    </div>div>
+            </div>div>
+      </nav>nav>
 
-<h2>2. Information We Collect</h2>
-<ul>
-<li><strong>Account information:</strong> Email address and display name when you create an account.</li>
-<li><strong>Health & nutrition data:</strong> Meal logs, sugar intake, streak history, weight logs, mood logs, and craving logs you voluntarily enter.</li>
-<li><strong>Photos:</strong> Food images you upload for analysis (stored securely, never shared).</li>
-<li><strong>Device information:</strong> Device type, OS version, and app version for crash reporting and compatibility.</li>
-<li><strong>Usage analytics:</strong> Anonymous usage patterns to improve the app experience.</li>
-</ul>
+      <!-- Content -->
+      <main class="max-w-3xl mx-auto px-6 pt-32 pb-20">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">Privacy Policy</h1>h1>
+            <p class="text-gray-500 mb-12">Last updated: March 18, 2026</p>p>
 
-<h2>3. How We Use Your Information</h2>
-<ul>
-<li>To provide food analysis, sugar detection, and personalized tracking features.</li>
-<li>To maintain your streak history and progress data.</li>
-<li>To improve the app based on anonymous usage patterns.</li>
-<li>To send important service-related notifications.</li>
-</ul>
+            <div class="space-y-10 text-gray-400 leading-relaxed">
 
-<h2>4. Data Storage & Security</h2>
-<p>Your data is stored securely using Supabase with Row Level Security (RLS) enabled on all tables. Food images are stored in secure cloud storage. We use industry-standard encryption for data in transit and at rest.</p>
-
-<h2>5. Third-Party Services</h2>
-<ul>
-<li><strong>Supabase:</strong> Authentication and database hosting.</li>
-<li><strong>OpenAI:</strong> Food image analysis (images are processed and not stored by OpenAI).</li>
-<li><strong>RevenueCat:</strong> Subscription management.</li>
-<li><strong>PostHog, Mixpanel, AppsFlyer:</strong> Anonymous analytics.</li>
-</ul>
-
-<h2>6. Data Sharing</h2>
-<p>We do <strong>not</strong> sell, rent, or share your personal data with third parties for marketing purposes. Data is only shared with the service providers listed above to operate the app.</p>
-
-<h2>7. Your Rights</h2>
-<p>You have the right to:</p>
-<ul>
-<li>Access your personal data.</li>
-<li>Request deletion of your account and all associated data.</li>
-<li>Export your data.</li>
-<li>Opt out of analytics tracking.</li>
-</ul>
-
-<h2>8. Children's Privacy</h2>
-<p>Unsweet is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
-
-<h2>9. Changes to This Policy</h2>
-<p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the app or via email.</p>
-
-<h2>10. Contact Us</h2>
-<p>If you have questions about this Privacy Policy, contact us at: <a href="mailto:support@unsweetapp.com">support@unsweetapp.com</a></p>
-
-<a href="/" class="back">← Back to Unsweet</a>
-</div>
-</body>
-</html>
+                    <section>
+                              <h2 class="text-xl font-semibold text-white mb-3">1. Introduction</h2>h2>
+                              <p>Unsweet ("we", "our", or "the App") is operated by Netanel Hadad. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.</p>
+                    </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">2. Information We Collect</h2>h2>
+                          <ul class="list-disc list-inside space-y-2 ml-2">
+                                    <li><strong class="text-gray-200">Account information:</strong>strong> Email address and display name when you create an account.</li>
+                                    <li><strong class="text-gray-200">Health &amp; nutrition data:</strong>strong> Meal logs, sugar intake, streak history, weight goals, and dietary preferences you provide.</li>
+                                    <li><strong class="text-gray-200">Photos:</strong>strong> Food images you upload for analysis (stored securely, never shared).</li>
+                                    <li><strong class="text-gray-200">Device information:</strong>strong> Device type, OS version, and app version for crash reporting.</li>
+                                    <li><strong class="text-gray-200">Usage analytics:</strong>strong> Anonymous usage patterns to improve the app experience.</li>
+                          </ul>ul>
+                  </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">3. How We Use Your Information</h2>h2>
+                          <ul class="list-disc list-inside space-y-2 ml-2">
+                                    <li>To provide food analysis, sugar detection, and personalized tracking features.</li>
+                                    <li>To maintain your streak history and progress data.</li>
+                                    <li>To improve the app based on anonymous usage patterns.</li>
+                                    <li>To send important service-related notifications.</li>
+                          </ul>ul>
+                  </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">4. Data Storage &amp; Security</h2>h2>
+                          <p>Your data is stored securely using Supabase with Row Level Security (RLS) enabled on all user data tables. All communication is encrypted via HTTPS.</p>
+                  </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">5. Third-Party Services</h2>h2>
+                          <ul class="list-disc list-inside space-y-2 ml-2">
+                                    <li><strong class="text-gray-200">Supabase:</strong>strong> Authentication and database hosting.</li>
+                                    <li><strong class="text-gray-200">OpenAI:</strong>strong> Food image analysis (images are processed and not stored by OpenAI).</li>
+                                    <li><strong class="text-gray-200">RevenueCat:</strong>strong> Subscription management.</li>
+                                    <li><strong class="text-gray-200">PostHog, Mixpanel, AppsFlyer:</strong>strong> Anonymous analytics.</li>
+                          </ul>ul>
+                  </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">6. Data Sharing</h2>h2>
+                          <p>We do <strong class="text-white">not</strong>strong> sell, rent, or share your personal data with third parties for marketing purposes.</p>
+                  </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">7. Your Rights</h2>h2>
+                          <p class="mb-2">You have the right to:</p>
+                          <ul class="list-disc list-inside space-y-2 ml-2">
+                                    <li>Access your personal data.</li>
+                                    <li>Request deletion of your account and all associated data.</li>
+                                    <li>Export your data.</li>
+                                    <li>Opt out of analytics tracking.</li>
+                          </ul>ul>
+                  </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">8. Children's Privacy</h2>h2>
+                          <p>Unsweet is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
+                  </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">9. Changes to This Policy</h2>h2>
+                          <p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the app or via email.</p>
+                  </section>
+            
+                  <section>
+                          <h2 class="text-xl font-semibold text-white mb-3">10. Contact Us</h2>h2>
+                          <p>If you have questions about this Privacy Policy, contact us at: <a href="mailto:support@unsweet-app.com" class="text-green-400 hover:text-green-300 underline">support@unsweet-app.com</a>a></p>
+                  </section>
+            
+            </div>div>
+      
+          <div class="mt-16 pt-8 border-t border-white/5">
+                <a href="/" class="text-green-400 hover:text-green-300 text-sm transition">&larr; Back to Unsweet</a>a>
+          </div>div>
+      </main>main>
+  
+    <!-- Footer -->
+    <footer class="border-t border-white/5 py-12">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+              <p class="text-sm text-gray-500">&copy; 2025 Unsweet. All rights reserved.</p>
+              <div class="flex items-center gap-6">
+                      <a href="privacy.html" class="text-sm text-gray-500 hover:text-gray-300 transition">Privacy Policy</a>a>
+                      <a href="terms.html" class="text-sm text-gray-500 hover:text-gray-300 transition">Terms of Service</a>a>
+              </div>div>
+        </div>div>
+    </footer>footer>
+  
+  </body>body>
+</html>html></p></p></li></li></p></p></li></li></p>
+                    </section>
+    </style></title>
+  </head>
